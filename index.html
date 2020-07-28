@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@1,500&family=Asap:wght@500&display=swap" rel="stylesheet"> 
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header>
+        <h1>Rock Paper Scissors</h1>        
+       </header>
+
+       <div class="score-board">
+        <div id="user_label" class="badge">User</div>
+        <div id="computer_label" class="badge">CPU</div>
+        <span id="user_score">0</span>:<span id="cpu_score">0</span> 
+       </div>
+
+       <div class="result">
+           <p>Pick one to start.</p>
+       </div>
+
+       <div class="choices">
+
+        <div class="choice" id="rock">
+            <img src="images/rock.png" alt="">
+        </div>
+
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="">
+        </div>
+
+        <div class="choice" id="scissors">
+            <img src="images/scissor.png" alt="">
+        </div>
+
+
+       </div>
+        
+        <p id="action">Make your move.</p>
+        <script src="game.js"></script>
+    </body>
+</html>
